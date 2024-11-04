@@ -1,0 +1,9 @@
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+local groupId = 1234567890
+
+if localPlayer:IsInGroup(groupId) then
+    print("Good boy")
+else
+    warn("Bad boy")
+end
